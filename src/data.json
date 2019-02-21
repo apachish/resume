@@ -1,0 +1,79 @@
+{
+  "title": "Hello I'm Shahriar!",
+  "subtitle": "Full Stack Dev | Open-Source Enthusiast | Blogger |Ninja",
+  "links": {
+    "github": "https://github.com/apachish",
+    "twitter": "https://twitter.com/apachish",
+    "stackoverflow": "https://stackoverflow.com/story/apachish",
+    "linkedin": "https://www.linkedin.com/in/shahriar-pahlevansadegh-62908144/"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+            "type": "p",
+            "content": "I love to learn."
+        },
+        {
+            "type": "p",
+            "content": "I beleive in self-learning."
+        },
+        {
+            "type": "p",
+            "content": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn."
+        }
+      ]
+    },
+    {
+        "title": "Skills",
+        "items": [
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/react.png",
+                    "title": "React"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/javascript.png",
+                    "title": "Javascript"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/html.png",
+                    "title": "HTML"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/css.png",
+                    "title": "CSS"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/python.png",
+                    "title": "Python"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/prog.png",
+                    "title": "Django"
+                }
+            }
+    ]
+      }
+  ],
+  "icons": {
+    "down": "images/down.png"
+}
+}
