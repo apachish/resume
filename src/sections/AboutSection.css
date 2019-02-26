@@ -6,7 +6,9 @@ p {
 .second {
     background-color: #ffff59;
 }
-
+.second:focus {
+    color: #ffff59;
+}
 h3 {
     font-size: 3rem;
 }

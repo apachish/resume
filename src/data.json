@@ -1,12 +1,26 @@
 {
   "title": "Hello I'm Shahriar!",
-  "subtitle": "Full Stack Dev | Open-Source Enthusiast | Blogger |Ninja",
+  "subtitle": "Full Stack Dev | Open-Source Enthusiast",
   "links": {
     "github": "https://github.com/apachish",
     "twitter": "https://twitter.com/apachish",
     "stackoverflow": "https://stackoverflow.com/story/apachish",
     "linkedin": "https://www.linkedin.com/in/shahriar-pahlevansadegh-62908144/"
   },
+  "changeColor":{
+    "title":"color Me",
+    "image":"images/rgb.png"
+  },
+  "navigation":[
+    {
+        "title": "About Us",
+        "link": "about"
+    },
+    {
+        "title": "Skill",
+        "link": "skill"
+    }
+ ],
   "sections": [
     {
       "title": "About",
@@ -59,15 +73,43 @@
             {
                 "type": "card",
                 "content": {
-                    "image": "images/python.png",
-                    "title": "Python"
+                    "image": "images/php.png",
+                    "title": "PHP"
                 }
             },
             {
                 "type": "card",
                 "content": {
-                    "image": "images/prog.png",
-                    "title": "Django"
+                    "image": "images/zf2.png",
+                    "title": "ZF2"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/yii2.png",
+                    "title": "Yii2"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/laravel.png",
+                    "title": "Laravel"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/git.png",
+                    "title": "Git"
+                }
+            },
+            {
+                "type": "card",
+                "content": {
+                    "image": "images/linux.png",
+                    "title": "Linux"
                 }
             }
     ]

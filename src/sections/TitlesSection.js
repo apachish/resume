@@ -9,36 +9,41 @@ import { Link, Element } from "react-scroll";
 class TitlesSection extends Component {
   constructor() {
     super();
-    this.state = {
-      color: "white"
-    };
-    this.changeColor = this.changeColor.bind(this);
+  
+    // this.changeColor = this.changeColor.bind(this);
   }
 
-  changeColor() {
-    this.setState({
-      color: this.state.color === "white" ? "yellow" : "white"
-    });
-  }
-
+  // changeColor() {
+  //   this.setState({
+  //     color: this.state.color === "white" ? "yellow" : "white"
+  //   });
+  // }
+  
   render() {
+    const color = this.props.color
+    const backgroundColor = this.props.backgroundColor
+    const snowColor = this.props.snowColor
     return (
       <div>
-        <Fullpage className="first">
+        <Fullpage className="first" backgroundColor={backgroundColor} snowColor={snowColor}>
           <h1
             className="title"
             style={{
-              color: this.state.color
+              color: color
             }}
-            onMouseOver={this.changeColor}
-            onMouseLeave={() => {
-              this.changeColor();
-            }}
+            // onMouseOver={this.changeColor}
+            // onMouseLeave={() => {
+            //   this.changeColor();
+            // }}
           >
             {data.title}
           </h1>
           <div>
-            <h2>{data.subtitle}</h2>
+            <h2
+            style={{
+              color: color
+            }}
+            >{data.subtitle}</h2>
           </div>
           <div className="icons-wrapper">
             {Object.keys(data.links).map(key => {

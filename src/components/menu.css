@@ -1,0 +1,46 @@
+html, body { margin: 0; padding: 0; }
+header {
+    float: right;
+	position: fixed;
+    width: 97.5vw;
+}
+#desktop-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#desktop-nav ul li {
+	display: inline-block;
+	width: 150px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#desktop-nav ul li a {
+    
+    mix-blend-mode: difference;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#desktop-nav ul li a:hover {
+	color: black;
+}
+#desktop-nav ul li.active a {
+	color: black;
+}
+.color {
+    width: 130px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-color:hover{
+    color: black;
+}
+.title-color {
+    color:white;
+    font-size: 10px;
+}
