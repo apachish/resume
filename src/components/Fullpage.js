@@ -12,7 +12,7 @@ class Fullpage extends Component {
             <div className={`fullpage ${this.props.className || ''}`} style={{
                 backgroundColor: backgroundColor
               }}>
-            				<SnowStorm snowColor={this.props.snowColor} animationInterval={2}  snowCharacter="."/>
+            				<SnowStorm snowColor={this.props.snowColor} />
 
                 {children}
             </div>
