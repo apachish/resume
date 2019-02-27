@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link, Element } from "react-scroll";
 
 import Fullpage from "../components/Fullpage";
+import DownIcon from "../components/DownIcon";
 
 import data from "../data.json";
 import "./AboutSection.css";
@@ -30,6 +31,20 @@ class AboutSection extends Component {
             })}
           </div>
         </Fullpage>
+        <Link
+          activeClass="active"
+          to="skill"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          delay={0}
+        >
+          <DownIcon
+            icon={data.icons.down}
+            onClick={() => console.log("im working")}
+          />
+        </Link>
         <Element name="skill" className="element" />
       </div>
     );

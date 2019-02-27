@@ -116,6 +116,8 @@
       }
   ],
   "icons": {
-    "down": "images/down.png"
+    "down": "images/down.png",
+    "up": "images/up.png"
+
 }
 }

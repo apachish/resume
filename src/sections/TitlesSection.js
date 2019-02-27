@@ -25,6 +25,8 @@ class TitlesSection extends Component {
     const snowColor = this.props.snowColor
     return (
       <div>
+                <Element name="title" className="element" />
+
         <Fullpage className="first" backgroundColor={backgroundColor} snowColor={snowColor}>
           <h1
             className="title"
